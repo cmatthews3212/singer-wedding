@@ -1,8 +1,10 @@
+import imgUrl from '../../assets/kay-dav.jpeg';
+
 export default function Home () {
     return (
         <div className="content">
             <div className="imgCont">
-                <img src="/src/assets/kay-dav.jpeg"></img>
+                <img src={imgUrl}></img>
             </div>
             <hr></hr>
             <div className="title">
