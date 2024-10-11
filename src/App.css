@@ -69,6 +69,10 @@ header h1 {
   right: 5%;
 }
 
+.menu:hover {
+  cursor: pointer;
+}
+
 .hamIcon {
   background-color: white;
   width: 35px;
@@ -270,7 +274,19 @@ footer ul li a {
 
 
 
+@media ( min-width: 800px ) {
+  .content {
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
 
+  footer {
+    padding-left: 50px;
+  }
 
-
+  footer ul li {
+    margin-left: 50px;
+  }
+}
 
