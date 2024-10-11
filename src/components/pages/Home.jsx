@@ -2,7 +2,7 @@ export default function Home () {
     return (
         <div className="content">
             <div className="imgCont">
-                <img src="/src/assets/kay-dav.jpeg"></img>
+                <img src="./src/assets/kay-dav.jpeg"></img>
             </div>
             <hr></hr>
             <div className="title">
