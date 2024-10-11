@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import Navigation from './Navigation';
+import Footer from './Footer'
 import Home from './pages/Home';
 import Travel from './pages/Travel';
 import Registry from './pages/Registry';
@@ -34,6 +35,7 @@ const Header = () => {
                 ></Navigation>
             </header>
             <main>{renderPage()}</main>
+            <Footer></Footer>
         </div>
     )
 }

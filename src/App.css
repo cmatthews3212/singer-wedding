@@ -46,6 +46,7 @@
   background-color:	#251012;
 }
 
+
 /* header and nav */
 
 header {
@@ -81,7 +82,7 @@ header h1 {
   width: 100%;
   right: 0%;
   height: 100%;
-  margin-top: 50px;
+  margin-top: 60px;
 }
 
 .navItems ul li {
@@ -97,6 +98,9 @@ header h1 {
 
 }
 
+.nav-link.active {
+  color:#c67b6f;
+}
 
 /* Universal Pages */
 h2 {
@@ -170,6 +174,55 @@ a {
   display: flex;
   justify-content: center;
   margin-top: 15px;
+}
+
+/* footer */
+
+#root {
+  position: relative;
+  min-height: 160vh;
+}
+footer {
+  background-color: #c67b6f;
+  padding: 30px;
+  /* margin-top: 100px; */
+  position: absolute;
+  top: 100%;
+  width: 100%;
+}
+
+footer h4 {
+  background-color: #c67b6f;
+  color: black;
+  font-size: 18px;
+}
+
+footer p {
+  background-color: #c67b6f;
+  text-align: left;
+  color: black;
+}
+
+
+footer p strong {
+  background-color: #c67b6f;
+}
+
+footer ul {
+  background-color: #c67b6f;
+}
+
+footer ul li {
+  background-color: #c67b6f;
+  margin: 10px 0px 10px 0px;
+  position: relative;
+  left: -5%;
+}
+
+footer ul li a {
+  background-color: #c67b6f;
+  color: black;
+
 }
 
 
