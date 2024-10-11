@@ -43,13 +43,13 @@
 
 * {
   margin: 0;
-  background-color: #634b51;
+  background-color:	#251012;
 }
 
 /* header and nav */
 
 header {
-  background-color: 	#634b51;
+  background-color: 		#251012;
   padding: 20px;
   display: flex;
   justify-content: center;
