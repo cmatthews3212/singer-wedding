@@ -248,7 +248,20 @@ footer ul li a {
 /* Registry Page */
 
 
+.content h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
 
+.registry p {
+  margin-bottom: 20px;
+}
+
+.registry {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
 
 
 

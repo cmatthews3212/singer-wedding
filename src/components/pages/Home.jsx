@@ -31,7 +31,7 @@ export default function Home () {
                 <h3>Potluck Sign Up</h3>
                 <p className="pot-sign">If you would like to sign up to be apart of the potluck, please click <a href="https://www.PerfectPotluck.com/CGOL4325">here</a> or click the link below:</p>
                 <div className="pot-link">
-                <a href="https://www.PerfectPotluck.com/CGOL4325">https://www.PerfectPotluck.com/CGOL4325</a>
+                <a target="_blank" href="https://www.PerfectPotluck.com/CGOL4325">https://www.PerfectPotluck.com/CGOL4325</a>
 
                 </div>
             </div>
