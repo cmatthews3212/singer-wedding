@@ -35,7 +35,7 @@ const Header = () => {
                 ></Navigation>
             </header>
             <main>{renderPage()}</main>
-        
+            <Footer></Footer>
         </div>
     )
 }
