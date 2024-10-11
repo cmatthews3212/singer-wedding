@@ -3,7 +3,7 @@ import { useState } from 'react';
 const Footer = () => {
     
     return (
-        <div>
+        <div className='footerCont'>
             <footer>
                 <h4>Developed by Christine Matthews</h4>
                 <p><strong>Contact and Portfolio:</strong></p>

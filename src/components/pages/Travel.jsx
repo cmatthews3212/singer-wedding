@@ -1,7 +1,7 @@
 export default function Travel () {
     return (
         <div className="content">
-            <h2>Travel</h2>
+            <p className="travel">Travel info is coming soon!</p>
         </div>
     )
 }

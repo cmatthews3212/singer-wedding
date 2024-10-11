@@ -185,17 +185,23 @@ a {
 
 /* footer */
 
-#root {
+/* #root {
   position: relative;
   min-height: 160vh;
+} */
+
+body {
+  min-height: 100vh;
+
 }
+
 footer {
   background-color: #c67b6f;
   padding: 30px;
   /* margin-top: 100px; */
-  position: absolute;
-  top: 100%;
-  width: 100%;
+  position: relative;
+  top: 10vh;
+  /* width: 100%; */
 }
 
 footer h4 {
@@ -232,6 +238,14 @@ footer ul li a {
   color: black;
 
 }
+
+/* Travel Page */
+.travel {
+  font-size: 50px;
+  margin-bottom: 60vh;
+}
+
+/* Registry Page */
 
 
 
