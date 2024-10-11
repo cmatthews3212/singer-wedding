@@ -12,8 +12,8 @@ export default function Home () {
             </div>
             <hr className="small-hr"></hr>
             <div className="date-location">
-                <p>FEBRUARY 15, 2025</p>
-                <p>MILLVILLE, NJ</p>  
+                <p>February 15, 2025</p>
+                <p>Millville, NJ</p>  
                 <p>4:00 PM - 8:00 PM</p>    
             </div>
             <hr></hr>

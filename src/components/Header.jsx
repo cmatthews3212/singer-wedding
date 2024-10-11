@@ -28,7 +28,7 @@ const Header = () => {
     return (
         <div>
             <header>
-                <h1>K&D</h1>
+                <h1>K & D</h1>
                 <Navigation
                     currentPage={currentPage}
                     handlePageChange={handlePageChange}
