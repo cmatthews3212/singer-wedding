@@ -1,4 +1,4 @@
-#root {
+/* #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -39,4 +39,146 @@
 
 .read-the-docs {
   color: #888;
+} */
+
+* {
+  margin: 0;
+  background-color: #634b51;
 }
+
+/* header and nav */
+
+header {
+  background-color: 	#634b51;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  border-bottom: 2px solid #c67b6f	;
+}
+
+header h1 {
+  text-align: center;
+  color: white;
+}
+
+.menu {
+  position: absolute;
+  right: 5%;
+}
+
+.hamIcon {
+  background-color: white;
+  width: 35px;
+  height: 4px;
+  margin: 6px 0;
+  border-radius: 10px;
+
+}
+
+.navItems {
+  position: absolute;
+  background-color: #634b51;
+  width: 100%;
+  right: 0%;
+  height: 100%;
+  margin-top: 50px;
+}
+
+.navItems ul li {
+  list-style-type: none;
+  margin: 20px 45px 20px 0%;
+  text-align: center;
+}
+
+.navItems ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+
+}
+
+
+/* Universal Pages */
+h2 {
+  color: white;
+  font-size: 30px;
+}
+
+.content {
+  margin: 40px;
+}
+
+hr {
+  margin-bottom: 40px;
+  margin-top: 40px;
+  border-top: 1.5px solid #c67b6f;
+  border-radius: 10px;
+}
+
+p {
+  color: white;
+}
+
+/* Home Page */
+
+.imgCont {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  width: 300px;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+}
+
+h3 {
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 25px;
+}
+
+p {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.small-hr {
+  width: 200px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.potluck h3 {
+  margin-top: 0px;
+}
+
+.potluck-info, .pot-sign {
+  line-height: 25px;
+}
+
+a {
+  color: #edcead;
+}
+
+.pot-link {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
