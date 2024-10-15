@@ -305,6 +305,9 @@ form div label {
 
 form div input {
   background-color: white;
+  height: 20px;
+  border-radius: 3px;
+  border: none;
 }
 
 form div h4 {
@@ -335,6 +338,15 @@ form button:hover {
   opacity: 70%;
 }
 
+form div input:focus {
+  border: 3px solid #251012;
+  outline: none;
+  
+}
+
+form .check input {
+  accent-color: #251012;
+}
 
 
 

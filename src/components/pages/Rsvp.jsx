@@ -1,8 +1,16 @@
 export default function Rsvp () { 
+    emailjs.sendForm('service_rx4kkue', 'template_9fy5xht', '#rsvp-form').then(
+        (response) => {
+          console.log('SUCCESS!', response.status, response.text);
+        },
+        (error) => {
+          console.log('FAILED...', error);
+        },
+      );
     return (
         <div className="content">
             <h2>RSVP</h2>
-            <form>
+            <form id="rsvp-form">
                 <div className="formInput">
                     <label for="fname">First Name</label>
                     <input type="text" id="fname" name="fname"></input>
@@ -10,6 +18,10 @@ export default function Rsvp () {
                 <div className="formInput">
                     <label for="lname">Last Name</label>
                     <input type="text" id="lname" name="lname"></input>
+                </div>
+                <div className="formInput">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email"></input>
                 </div>
                 <div className="formInput">
                     <label for="party">Party of...</label>
