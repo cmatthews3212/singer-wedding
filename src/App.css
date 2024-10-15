@@ -271,6 +271,64 @@ footer ul li a {
   margin-bottom: 500px;
 }
 
+/* RSVP */
+
+form {
+  background-color: #c67b6f;
+  padding: 20px;
+  border-radius: 2px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+
+form div {
+  background-color: #c67b6f;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+form div label strong {
+  background-color: #c67b6f;
+}
+
+form div label {
+  background-color: #c67b6f;
+}
+
+form div input {
+  background-color: white;
+}
+
+form div h4 {
+  background-color: #c67b6f;
+}
+
+.rsvpCheck .check label {
+  position: relative;
+  right: -20px;
+}
+
+.rsvpCheck .check input {
+  position: relative;
+  right: 50%;
+  top: 15px;
+}
+
+form button {
+  color: white;
+  padding: 10px;
+  width: 100px;
+  margin: 0 auto;
+  border-radius: 2px;
+}
+
+form button:hover {
+  cursor: pointer;
+  opacity: 70%;
+}
+
+
 
 
 
@@ -288,5 +346,13 @@ footer ul li a {
   footer ul li {
     margin-left: 50px;
   }
+
+  form {
+    width: 400px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+  }
+
+
 }
 

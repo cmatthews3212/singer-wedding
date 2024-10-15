@@ -4,6 +4,7 @@ import Footer from './Footer'
 import Home from './pages/Home';
 import Travel from './pages/Travel';
 import Registry from './pages/Registry';
+import Rsvp from './pages/Rsvp';
 
 
 
@@ -20,6 +21,9 @@ const Header = () => {
         }
         if (currentPage === 'Registry') {
             return <Registry />
+        } 
+        if (currentPage === 'Rsvp') {
+            return <Rsvp />
         }
     };
 

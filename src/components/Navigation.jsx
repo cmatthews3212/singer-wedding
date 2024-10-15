@@ -50,6 +50,15 @@ const Navigation = ({ currentPage, handlePageChange }) => {
                         Registry
                     </a>
                 </li>
+                <li>
+                    <a 
+                    href="#rsvp" 
+                    onClick={(event) => handleNavClick('Rsvp', event)}
+                    className={currentPage === 'Rsvp' ? 'nav-link active' : 'nav-link'}
+                    >
+                        RSVP
+                    </a>
+                </li>
             </ul>
             </div>
         </div>
