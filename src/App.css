@@ -46,6 +46,10 @@
   background-color:	#251012;
 }
 
+button {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 17px;
+}
 
 /* header and nav */
 
