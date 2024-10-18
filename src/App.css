@@ -465,6 +465,13 @@ form .check input:hover {
     margin-bottom: 100px;
   }
 
+  .rsvp-hr {
+    width: 435px;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
 
 }
 
