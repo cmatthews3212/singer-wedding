@@ -60,12 +60,14 @@ header {
 
 
 
-header h1 {
+header h1 a {
   text-align: center;
   color: white;
   font-family: "Great Vibes", cursive;
-  
+  text-decoration: none;
+  font-size: 40px;
 }
+
 
 .menu {
   position: absolute;

@@ -27,12 +27,17 @@ const Header = () => {
         }
     };
 
+    const renderHome = (page, event) => {
+        event.preventDefault();
+         handlePageChange(page)
+    }
+
     const handlePageChange = (page) => setCurrentPage(page);
 
     return (
         <div>
             <header>
-                <h1>K & D</h1>
+                <h1><a id="header-link" onClick={(event) => renderHome('Home', event)} href="#home">K & D</a></h1>
                 <Navigation
                     currentPage={currentPage}
                     handlePageChange={handlePageChange}
