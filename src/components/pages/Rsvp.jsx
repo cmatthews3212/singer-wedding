@@ -58,7 +58,8 @@ export default function Rsvp () {
                 </div>
                 <div className="formInput">
                     <label for="party">Party of...</label>
-                    <input value={formData.party} onChange={handleChange}  type="text" id="party" name="party" placeholder="Number of people including yourself and children..."></input>
+                    <p className='party-desc'>(Number of people including yourself and children)</p>
+                    <input value={formData.party} onChange={handleChange}  type="text" id="party" name="party"></input>
                 </div>
                 <div className="formInput">
                     <h4>Check to RSVP!</h4>

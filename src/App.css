@@ -363,6 +363,16 @@ form .check input:hover {
   cursor: pointer;
 }
 
+.party-desc {
+  background-color: #c67b6f;
+  color: black;
+  font-weight: 600;
+  text-align: left;
+  font-size: 15px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
 
 
 
