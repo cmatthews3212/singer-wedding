@@ -10,6 +10,8 @@ export default function Rsvp () {
         rsvp: ''
     });
 
+    const [errorMessage, setErrorMessage] = useState('');
+
     init('SyDAG4upyEVJH2_Rd');
 
     const handleChange = (e) => {
@@ -22,21 +24,32 @@ export default function Rsvp () {
 
     const sendEmail = (e) => {
         e.preventDefault();
+      
+            if (!fname || !lname || !email || !party || !formData.rsvp) {
+                setErrorMessage('Please fill in all fields.')
+            } else {
+                setErrorMessage('')
+                send('service_rx4kkue', 'template_9fy5xht', formData)
+                .then((res) => {
+                    console.log('Email success!', res.status, res.text);
+                }, (err) => {
+                    console.error('Email failed', err);
+                });
+        
+             setFormData({
+                    fname: '',
+                    lname: '',
+                    email: '',
+                    party: '',
+                    rsvp: ''
+                });
+            }
+            
 
-        send('service_rx4kkue', 'template_9fy5xht', formData)
-        .then((res) => {
-            console.log('Email success!', res.status, res.text);
-        }, (err) => {
-            console.error('Email failed', err);
-        });
 
-        setFormData({
-            fname: '',
-            lname: '',
-            email: '',
-            party: '',
-            rsvp: ''
-        });
+        
+
+       
     };
 
     
@@ -75,6 +88,7 @@ export default function Rsvp () {
                     </div>
                 </div>
                 <button type="submit">RSVP</button>
+                {errorMessage && <p className='error' style={{color: 'white'}}>{errorMessage}</p>}
 
             </form>
         </div>

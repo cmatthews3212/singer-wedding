@@ -402,6 +402,10 @@ form .check input:hover {
   margin-top: 0px;
 }
 
+.error {
+  background-color: red;
+}
+
 
 
 
