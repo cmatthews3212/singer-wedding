@@ -25,7 +25,7 @@ export default function Rsvp () {
     const sendEmail = (e) => {
         e.preventDefault();
       
-            if (!fname || !lname || !email || !party || !formData.rsvp) {
+            if (!formData.fname || !formData.lname || !formData.email || !formData.party || !formData.rsvp) {
                 setErrorMessage('Please fill in all fields.')
             } else {
                 setErrorMessage('')
