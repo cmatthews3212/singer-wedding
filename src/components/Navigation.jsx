@@ -50,7 +50,7 @@ const Navigation = ({ currentPage, handlePageChange }) => {
                         Registry
                     </a>
                 </li>
-                {/* <li>
+                <li>
                     <a 
                     href="#rsvp" 
                     onClick={(event) => handleNavClick('Rsvp', event)}
@@ -58,7 +58,7 @@ const Navigation = ({ currentPage, handlePageChange }) => {
                     >
                         RSVP
                     </a>
-                </li> */}
+                </li>
             </ul>
             </div>
         </div>
