@@ -317,6 +317,19 @@ footer ul li a {
   margin-bottom: 500px;
 }
 
+.registry-link {
+  color: white;
+  text-decoration: none;
+  background-color: #c67b6f;
+  width: 200px;
+  padding: 10px;
+  margin: 0 auto;
+  border-radius: 5px;
+  border: 2px solid #c67b6f;
+}
+
+
+
 /* RSVP */
 
 form {
@@ -429,6 +442,10 @@ form .check input:hover {
   }
 
   .navItems ul li a:hover {
+    opacity: 65%;
+  }
+
+  .registry-link:hover {
     opacity: 65%;
   }
 
