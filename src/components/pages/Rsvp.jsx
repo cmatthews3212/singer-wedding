@@ -56,6 +56,7 @@ export default function Rsvp () {
     return (
         <div className="content">
             <h2>RSVP</h2>
+            <hr></hr>
             <form onSubmit={sendEmail} id="rsvp-form">
                 <div className="formInput">
                     <label for="fname">First Name</label>
