@@ -16,11 +16,16 @@ const Navigation = ({ currentPage, handlePageChange }) => {
 
     return (
         <div>
-            <div className='menu' onClick={handleMenuClick}>
+            <div className='close-menu'>
+                <span style={{display: isVisible ? 'block' : 'none'}} onClick={handleMenuClick} className='x'>&#10005;</span>
+            </div>
+            <div className='menu' onClick={handleMenuClick}
+            style={{display: isVisible ? 'none' : 'block'}}>
                 <div className='hamIcon'></div>
                 <div className='hamIcon'></div>
                 <div className='hamIcon'></div>
             </div>
+        
             <div className="navItems" style={{ display: isVisible ? 'block' : 'none' }}>
 
             <ul>

@@ -75,6 +75,7 @@ header h1 a {
   border: 2px solid #251012;
   border-radius: 5px;
   padding: 5px 10px 5px 10px;
+  /* display: none; */
 }
 
 .menu:hover {
@@ -92,13 +93,33 @@ header h1 a {
 
 }
 
+.x {
+  content: "\2715";
+  font-weight: 1000;
+  font-size: 30px;
+  /* display: none; */
+}
+
+.x:hover {
+  cursor: pointer;
+}
+
+.close-menu {
+    position: absolute;
+    right: 5%;
+    border: 2px solid #251012;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+    color: white;
+}
+
 .navItems {
   position: absolute;
   background-color: #251012;
   width: 100%;
   right: 0%;
   height: 100%;
-  margin-top: 65px;
+  margin-top: 75px;
 }
 
 
@@ -392,6 +413,10 @@ form .check input:hover {
   }
 
   .menu:hover {
+    opacity: 65%;
+  }
+
+  .x:hover {
     opacity: 65%;
   }
 
