@@ -115,7 +115,7 @@ header h1 {
 
 }
 
-.navItems ul li:hover {
+.navItems ul li a:hover {
   opacity: 65%;
 }
 
