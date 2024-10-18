@@ -13,6 +13,7 @@ const Navigation = ({ currentPage, handlePageChange }) => {
         handlePageChange(page);
     };
 
+
     return (
         <div>
             <div className='menu' onClick={handleMenuClick}>
