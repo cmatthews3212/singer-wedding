@@ -80,7 +80,7 @@ header h1 a {
 .menu:hover {
   cursor: pointer;
   /* border: 2px solid white; */
-  opacity: 65%;
+ 
 }
 
 .hamIcon {
@@ -117,9 +117,6 @@ header h1 a {
 
 }
 
-.navItems ul li a:hover {
-  opacity: 65%;
-}
 
 .nav-link.active {
   color:#c67b6f;
@@ -392,6 +389,14 @@ form .check input:hover {
     width: 600px;
     margin: 0 auto;
     margin-top: 50px;
+  }
+
+  .menu:hover {
+    opacity: 65%;
+  }
+
+  .navItems ul li a:hover {
+    opacity: 65%;
   }
 
   footer {
